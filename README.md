@@ -9,7 +9,7 @@ There are 4 scripts in this repo:
 - [List of Standing RBAC Access on Subscriptions](./getStandingRBACAssignmentsSubscriptions.ps1)
 - [List of Standing RBAC Access on Management Groups](./getStandingRBACAssignmentsManagementGroups.ps1)
 - [List of Azure AD Assigned Administrator Roles](./getStandingADRoleAssignments.ps1)
-- [List of Eligible RBAC Assignments]()
+- [List of PIM Eligible RBAC Assignments]()
 
 ### List of Standing RBAC Access on Subscriptions
 
@@ -47,5 +47,5 @@ cd GetAzureAssignments
 
 Once the script has finished iterating through all of the assignments across subscriptions, you will find a file called `StandingADRoleAssignments-YYYY-MM-DD.csv` in the directory.
 
-### List of Eligible RBAC Assignments
+### List of PIM Eligible RBAC Assignments
 Coming Soon...
