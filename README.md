@@ -57,4 +57,4 @@ cd GetAzureAssignments
 ./getPIMAssignmentInfo.ps1 -SubscriptionId <SubscriptionId>
 ```
 
-Once the script has finished iterating through all of the PIM assignments in the provided subscription, you will find a file called `PIMAssignmentInfo_YYYY-MM-DD.csv` in the directory.
+Once the script has finished iterating through all of the PIM assignments in the provided subscription, you will find a file called `PIMAssignmentInfo_<SubscriptionID>_YYYY-MM-DD.csv` in the directory.
