@@ -7,7 +7,7 @@ param (
 
 #region main
 $currentDir = $(Get-Location).Path
-$currentDT = Get-Date -Format "yyyy-MM-dd_HH-mm"
+$currentDT = Get-Date -Format "yyyy-MM-dd"
 $oFile = "$($currentDir)\PIMAssignmentInfo_$($currentDT).csv"
 
 $EligiblePIMData = @()
