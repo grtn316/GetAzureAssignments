@@ -18,7 +18,7 @@ To run this script, simply navigate to [Azure Cloud Shell](https://shell.azure.c
 Once the repo has been cloned, step into the directory and run the script:
 ```powershell
 cd GetAzureAssignments
-./getStandingRBACAccess.ps1
+./getStandingRBACAssignmentsSubscriptions.ps1
 ```
 
 Once the script has finished iterating through all of the assignments across subscriptions, you will find a file called `StandingRBACAssignmentsSubscriptions-YYYY-MM-DD.csv` in the directory.
@@ -30,7 +30,7 @@ To run this script, simply navigate to [Azure Cloud Shell](https://shell.azure.c
 Once the repo has been cloned, step into the directory and run the script:
 ```powershell
 cd GetAzureAssignments
-./getStandingRBACManagementGroupAccess.ps1
+./getStandingRBACAssignmentsManagementGroups.ps1
 ```
 
 Once the script has finished iterating through all of the assignments across subscriptions, you will find a file called `StandingRBACAssignmentsManagementGroups-YYYY-MM-DD.csv` in the directory.
@@ -42,7 +42,7 @@ To run this script, simply navigate to [Azure Cloud Shell](https://shell.azure.c
 Once the repo has been cloned, step into the directory and run the script:
 ```powershell
 cd GetAzureAssignments
-./getStandingAzureADRoleAccess.ps1
+./getStandingADRoleAssignments.ps1
 ```
 
 Once the script has finished iterating through all of the assignments across subscriptions, you will find a file called `StandingADRoleAssignments-YYYY-MM-DD.csv` in the directory.
